@@ -1,1 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: blueviolet;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:red;
+  }
+  
+  header {
+    grid-area: header;
+    color: bisque;
+    padding: 10px;
+    font-family: 'Gill Sans';
+    font-size: 200%;
+    text-align: center;
+    background-image: url('./Few\ Good\ Men\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  main {
+    grid-area: main;
+    color: #2d2f77;
+    padding: 10px;
+    text-align: center;
+    height: 800px;
+    background-color: red;
+    
+    
+    
+  }
+  
+  img {
+    width: 25%;
+  }
